@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coder Girls</title>
+
+	<link rel="icon" href="dk.png" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div
+      class="jumbotron jumbotron-fluid bg-success text-white jumbo d-none"
+      style="position: absolute; left: 0; bottom: 0; z-index: 333"
+    >
+      <div class="container">
+        <h6 class="display-6 text-center">
+          Malumotlar Muvaffaqqiyatli yuborildi
+        </h6>
+      </div>
+    </div>
+
+    <div class="box d-flex">
+      <div class="col-md-6 col-12 second d-flex align-items-center">
+        <div class="urtaga">
+          <h2 class="text-center text-light pb-2">Regestration</h2>
+
+          <form method="post" class="form captcha" action="#">
+            <input
+              type="text"
+              placeholder="Ism *"
+              class="form-control p-2 w-75 m-auto mb-3 ism"
+              required
+            />
+
+            <input
+              type="text"
+              placeholder="Familiya *"
+              class="form-control p-2 w-75 m-auto mb-3 familiya"
+              required
+            />
+
+            <input
+              type="text"
+              placeholder="Otasining Ismi *"
+              class="form-control p-2 w-75 m-auto mb-3 sharif"
+              required
+            />
+
+            <input
+              type="number"
+              placeholder="tel: +998 99 999 99 99 *"
+              class="form-control p-2 w-75 m-auto mb-3 nomer"
+              required
+            />
+
+            <input
+              type="email"
+              placeholder="Email *"
+              class="form-control p-2 w-75 m-auto mb-3 email"
+              required
+            />
+
+            <select
+              class="form-select p-2 w-75 m-auto mb-3 tuman"
+              aria-label="Default select example "
+            >
+              <option selected required>Tumaningizni Tanlang *</option>
+              <option value="Bulungʻur tumani">Bulungʻur tumani</option>
+              <option value="Ishtixon tumani">Ishtixon tumani</option>
+              <option value="Jomboy tumani">Jomboy tumani</option>
+              <option value="Kattaqoʻrgʻon tumani">Kattaqoʻrgʻon tumani</option>
+              <option value="Qoʻshrabot tumani">Qoʻshrabot tumani</option>
+
+              <option value="Narpay tumani">Narpay tumani</option>
+              <option value="Nurobod tumani">Nurobod tumani</option>
+              <option value="Oqdaryo tumani">Oqdaryo tumani</option>
+              <option value="Paxtachi tumani">Paxtachi tumani</option>
+              <option value="Payariq tumani">Payariq tumani</option>
+              <option value="Pastdargʻom tumani">Pastdargʻom tumani</option>
+              <option value="Samarqand tumani">Samarqand tumani</option>
+
+              <option value="Samarqand shaxar">Samarqand shaxar</option>
+
+              <option value="Toyloq tumani">Toyloq tumani</option>
+              <option value="Urgut tumani">Urgut tumani</option>
+              <option value="Urgut tumani">boshqa</option>
+            </select>
+            <input
+              type="text"
+              placeholder="Ta'lim Muassasasi"
+              class="form-control p-2 w-75 m-auto mt-2 dargoh"
+            />
+            <div class="container w-75 pt-3 d-flex justify-content-between p-0">
+              <div class="d-flex justify-content-between position-relative">
+                <img
+                  src="https://avatars.mds.yandex.net/i?id=46c011064e0d50fd5df1fc10a4162c94-4901993-images-thumbs&n=13"
+                  alt="rasm yuklanmoqda"
+                  class="rasm"
+                  style="width: 200px; height: 60px"
+                />
+                <div
+                  class="spinner-border spin"
+                  style="position: absolute; left: 85px; top: 15px"
+                  role="status"
+                ></div>
+                <i class="fa fa-arrow-right fa-2x mt-3"></i>
+                <input
+                  type="text"
+                  class="form-control w-25 kod"
+                  value=""
+                  placeholder="kod"
+                />
+              </div>
+            </div>
+            <button
+              class="btn btn-primary w-75 d-block m-auto mt-3"
+              type="submit"
+            >
+              jo'natish
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <div
+        class="col-md-6 col-12 bg-danger first d-flex justify-content-center align-items-center"
+      >
+        <div class="w-75 h-100">
+          <h2
+            class="text-white text-center position-relative z-index-3 mt-5 women"
+            style="
+              text-shadow: 10px 10px 50px rgb(243, 195, 4);
+              font-size: 50px;
+              font-family: 900;
+              font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+                sans-serif;
+            "
+          >
+            WOMEN IT CUP
+          </h2>
+
+          <h3
+            class="text-light"
+            style="position: absolute; bottom: 200px; left: 100px"
+          >
+            Batafsil ma'lumotlar uchun
+          </h3>
+
+          <div
+            class="w-50 h-25 m-auto d-flex justify-content-evenly flex-column-reverse"
+            style="position: absolute; bottom: 50px; left: 100px"
+          >
+            <a
+              class="fa fa-telegram fa-2x text-decoration-none fs-6"
+              href="https://t.me/dasturchi_qizlar_klubi"
+              style="color: rgb(2, 192, 255)"
+            >
+              <span style="font-family: calibri">Dasturchi Qizlar Klubi</span>
+            </a>
+            <a
+              class="fa fa-instagram fa-2x text-decoration-none fs-6"
+              href="https://www.instagram.com/dasturchilarklubi/"
+              style="color: rgb(255, 103, 212)"
+            >
+              <span style="font-family: calibri">Dasturchilar Klubi</span></a
+            >
+
+            <a
+              class="fs-6 text-white text-decoration-none fa fa-phone fa-2x"
+              href="tel:+998 88 406 83 23"
+              style="position: absolute; bottom: -15px"
+            >
+              +998 88 406 83 23</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="loader">
+      <div class="dot">
+        <p>C</p>
+      </div>
+      <div class="dot">
+        <p>O</p>
+      </div>
+      <div class="dot">
+        <p>D</p>
+      </div>
+      <div class="dot">
+        <p>E</p>
+      </div>
+      <div class="dot">
+        <p>R</p>
+      </div>
+
+      <div class="dot">
+        <p>G</p>
+      </div>
+
+      <div class="dot">
+        <p>I</p>
+      </div>
+      <div class="dot">
+        <p>R</p>
+      </div>
+      <div class="dot">
+        <p>L</p>
+      </div>
+      <div class="dot">
+        <p>S</p>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script>
+      const ism = document.querySelector(".ism");
+      const familiya = document.querySelector(".familiya");
+      const sharif = document.querySelector(".sharif");
+      const nomer = document.querySelector(".nomer");
+      const email = document.querySelector(".email");
+      const tuman = document.querySelector(".tuman");
+      const dargoh = document.querySelector(".dargoh");
+      const spin = document.querySelector(".spin");
+      const jumbo = document.querySelector(".jumbo");
+      const rasm = document.querySelector(".rasm");
+      const captcha = document.querySelector(".captcha");
+
+      const kod = document.querySelector(".kod");
+
+      axios.get("https://dk-reg.herokuapp.com/api/bot/cap").then((res) => {
+        rasm.src = "data:image/png;base64," + res.data.item1;
+        spin.style.display = "none";
+        console.log(res.data.id);
+
+        console.log(res);
+
+        captcha.addEventListener("submit", (evt) => {
+          evt.preventDefault();
+          if (kod.value == "") {
+            alert('kaptchani to"ldiring malumotlar junatilmadi');
+          }
+          if (res.data.id && kod.value !== "") {
+            evt.preventDefault();
+            axios
+              .post(
+                `https://dk-reg.herokuapp.com/api/bot/reg/${res.data.id}/${kod.value}`,
+                {
+                  ism: ism.value,
+                  familiya: familiya.value,
+                  otasining_ismi: sharif.value,
+                  nomer: nomer.value,
+                  email: email.value,
+                  tuman: tuman.value,
+                  Talim_Musassasasi: dargoh.value,
+                }
+              )
+              .then((res) => {
+                console.log(res.status);
+                console.log(typeof res.status);
+                if (res.status === 200) {
+                  jumbo.style.cssText =
+                    "display:block !important;position: absolute; left: 0; bottom: 0; z-index: 333;";
+                  setTimeout(() => {
+                    window.location.reload();
+                  }, 1500);
+                  setTimeout(() => {
+                    jumbo.style.cssText = "display:none !important";
+                  }, 2000);
+
+                  ism.value = "";
+                  familiya.value = "";
+                  sharif.value = "";
+                  nomer.value = "";
+                  email.value = "";
+                  tuman.value = "tumaningizni tanlang";
+                  dargoh.value = "";
+                  kod.value = "";
+                }
+              })
+              .catch((error) => {
+                console.log(error);
+                if (
+                  error.response.data === "incorrect captcha" ||
+                  error.response.status == 409
+                ) {
+                  alert(
+                    "kodni xato kiritdingiz, yoki mavjud kodni qaytadan kirityapsiz"
+                  );
+                }
+              });
+          }
+        });
+      });
+
+      axios.get("https://dk-reg.herokuapp.com/api/bot/reg").then((res) => {
+        console.log(res);
+      });
+    </script>
+
+<!-- loader -->
+    <script>
+      let loader = document.querySelector(".loader");
+      let box = document.querySelector(".box");
+      window.onload = () => {
+        loader.style.cssText = "display:none !important";
+        box.style.visibility = "visible";
+      };
+    </script>
+
+  </body>
+</html>

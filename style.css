@@ -1,0 +1,332 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+background: rgb(29,101,242);
+background: linear-gradient(135deg, rgba(29,101,242,0.8407738095238095) 20%, rgba(177,58,180,0.8519782913165266) 74%);
+
+}
+
+
+body::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 40%;
+	height: 75%;
+
+	border-radius: 50%;
+	background: rgb(146,1,255);
+background: linear-gradient(90deg, rgba(146,1,255,0.6278886554621849) 16%, rgba(18,169,226,0.8183648459383753) 79%);
+filter: blur(3px);
+
+}
+
+body::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 10%;
+	height: 20%;
+	
+	border-radius: 50%;
+	background: rgb(146,1,255);
+background: linear-gradient(90deg, rgba(146,1,255,0.6278886554621849) 16%, rgba(18,169,226,0.8183648459383753) 79%);
+
+filter: blur(3px);
+z-index: -1;
+}
+
+.box{
+width: 1100px;
+height: 650px;
+border-radius: 10px;
+visibility: hidden;
+}
+
+.first, .second{
+	min-height: 650px;
+}
+
+.first{
+	background-image:url(https://www.hse.ru/data/2021/07/06/1430854722/3iStock-1194430784.jpg);;
+	
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	position: relative;
+	font-family: 'Prompt', sans-serif;
+	box-shadow: -10px 20px 30px rgba(0, 0, 0, 0.5);
+	transition-duration:1s;
+}
+
+.first:before{
+	content: '';
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,0.5);
+	backdrop-filter: blur(3px) saturate(199%);
+    -webkit-backdrop-filter: blur(3px) saturate(199%);
+    background-color: rgba(255, 255, 255, 0.14);
+   
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+.second{
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	backdrop-filter: blur(9px) saturate(199%);
+    -webkit-backdrop-filter: blur(9px) saturate(199%);
+    background-color: rgba(255, 255, 255, 0.29);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+
+}
+
+
+.first:hover{
+	transform: scale(1.02);
+	-moz-transform: scale(1.02);
+	-ms-transform: scale(1.02);
+	-o-transform: scale(1.02);
+	-webkit-transform: scale(1.02);
+}
+
+
+
+.urtaga{
+	width: 90%;
+	height: 90%;
+	font-family: 'Prompt', sans-serif;
+		caret-color: red;
+	margin: auto;
+
+
+}
+
+
+input{
+	background-color: rgba(255,255,255,0.8) !;
+}
+
+
+[placeholder="Ism *"] {
+  background:#fff url(https://cdn2.iconfinder.com/data/icons/leto-blue-online-education/64/__woman_laptop_student_studing-256.png)  97% 50% no-repeat ;
+  background-size: 10%;
+
+}
+[placeholder="Ism *"]::-webkit-inner-spin-button {
+  display: none;
+}
+[placeholder="Ism *"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+ 
+}
+
+
+
+[type="number"] {
+  background:#fff url(https://cdn3.iconfinder.com/data/icons/token/128/Telephone-Alt.png)  97% 50% no-repeat ;
+  background-size: 10%;
+}
+[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="number"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+
+
+[type="email"] {
+  background:#fff url(https://cdn0.iconfinder.com/data/icons/leto-blue-web-marketing-content-1/64/_-05-128.png)  97% 50% no-repeat ;
+  background-size: 10%;
+}
+[type="email"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="email"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+
+[placeholder="Ta'lim Muassasasi"] {
+  background:#fff url(https://cdn3.iconfinder.com/data/icons/education-1-1/256/School-128.png)  97% 50% no-repeat ;
+  background-size: 10%;
+}
+[placeholder="Ta'lim Muassasasi"]::-webkit-inner-spin-button {
+  display: none;
+}
+[placeholder="Ta'lim Muassasasi"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+
+
+@media  (min-width:200px) and (max-width:800px)  {
+	.box{
+		display: block !important;
+	}
+
+
+	body{
+	min-height: 70vh;
+	}
+
+
+	.rasm{
+		width: 150px !important;
+	}
+
+	.spin{
+		left: 60px !important;
+	}
+
+	.jumbo{
+		position: absolute !important;
+		top: 0 !important;
+		left: 0 !important;
+		width: 100% !important;
+		height: 100px !important;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+}
+.women{
+	top: -150px;
+}
+
+body::before{
+	content: '';
+	width: 45%;
+	height: 20%;
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,0.5);
+	backdrop-filter: blur(3px) saturate(199%);
+    -webkit-backdrop-filter: blur(3px) saturate(199%);
+    background-color: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+	
+}
+}
+
+
+
+.loader {
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	margin-left: 10%;
+	transform: translate3d(-50%, -50%, 0);
+	display: block;
+  }
+  .loader p{
+		 font-family: moulinrougeflf;
+		  text-align: center;
+		  font-size: 20px;
+		  color:#fff;
+		  line-height:0px;
+		  margin-top:15px;
+	  }
+  .dot {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	animation: slide 2s infinite;
+	color:#fff
+  }
+  .dot:nth-child(1) {
+	animation-delay: 0.1s;
+	background: #FEC50A;
+  }
+  .dot:nth-child(2) {
+	animation-delay: 0.2s;
+	background:#F46C0F;
+  }
+  .dot:nth-child(3) {
+	animation-delay: 0.3s;
+	background: #E22120;
+  }
+  .dot:nth-child(4) {
+	animation-delay: 0.4s;
+	background: #02619C;
+  }
+  .dot:nth-child(5) {
+	animation-delay: 0.5s;
+	background: #02619C;
+  }
+  .dot:nth-child(6) {
+	animation-delay: 0.6s;
+	background: #57CAF4;
+  }
+  .dot:nth-child(7) {
+	animation-delay: 0.7s;
+	background: #5852A3;
+  }
+  .dot:nth-child(8) {
+	animation-delay: 0.8s;
+	background: #B60350;
+  }
+  .dot:nth-child(9) {
+	animation-delay: 0.9s;
+	background: #ED2796;
+  }
+  @-moz-keyframes slide {
+	0% {
+	  transform: scale(1);
+	}
+	50% {
+	  opacity: 0.3;
+	  transform: scale(2);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  @-webkit-keyframes slide {
+	0% {
+	  transform: scale(1);
+	}
+	50% {
+	  opacity: 0.3;
+	  transform: scale(2);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  @-o-keyframes slide {
+	0% {
+	  transform: scale(1);
+	}
+	50% {
+	  opacity: 0.3;
+	  transform: scale(2);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  @keyframes slide {
+	0% {
+	  transform: scale(1);
+	}
+	50% {
+	  opacity: 0.3;
+	  transform: scale(2);
+	}
+	100% {
+	  transform: scale(1);
+	}
+  }
+  
